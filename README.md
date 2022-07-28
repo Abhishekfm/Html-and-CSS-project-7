@@ -10,10 +10,10 @@
 
 In this project I learned about transform property in css and its rotate function which rotate your content to specific degree.
 
-[Visit this website](https://abhi-project-1.netlify.app/)
+[Visit this website](https://abhi-project-7.netlify.app/)
 
 
 #
 
-To see my work visit my [Portfolio]("my-portfolio-website")
+To see my work visit my [Portfolio](https://portfolio-of-abhishek.netlify.app)
 
