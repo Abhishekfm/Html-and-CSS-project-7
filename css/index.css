@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 0px;
+    margin-left: 80px;
+    font-family: 'Poppins';
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 0.4;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.nav-items h5:hover{
+    color: #FE5E35;
+    cursor: pointer;
+}
+
+/* body */
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.left-section h3:first-child{
+    font-family: 'Poppins';
+    font-size: 25px;
+
+}
+.left-section h3:first-child img{
+    margin-top: 10px;
+    width: 30px;
+    /* opacity: 0.6; */
+}
+.left-section h1{
+    font-family: 'Fredoka One';
+    font-size: 90px;
+    font-weight: 400;
+}
+.left-section .sub-headlines{
+    margin-top: 50px;
+    font-family: 'Poppins';
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.pluss{
+    background-color: #FE5E35;
+    border-radius: 100%;
+    width: 15px;
+    padding: 2px 2px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+.sub-headline{
+    margin-bottom: 20px;
+}
+.text{
+    font-family: 'Poppins';
+    font-weight: 100;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+.action-btns{
+    margin-top: 50px;
+}
+.action-btn{
+    margin-right: 20px;
+    padding: 10px 22px;
+    border-radius: 1.9em;
+    background-color: #FE5E35;
+    color: #ffffff;
+    border: 0;
+    font-family: 'Poppins';
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.discount{
+    position: absolute;
+    bottom: 20%;
+    left: 62%;
+    width: 180px;
+}
+.discount-content{
+    font-family: 'Fredoka One';
+    color: #ffffff;
+    font-size: x-large;
+    position: absolute;
+    bottom: 27%;
+    left: 65%;
+}
+.discount-content h4{
+    font-weight: 200;
+}
+.discount-content h1{
+    font-weight: 500;
+}
+.headphonee{
+    width: 500px;
+    height: min-content;
+}
+.down-btn{
+    width: 150px;
+    margin-left: 180px;
+}
+.dots{
+    /* padding-bottom: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 1%; */
+    /* background-color: red; */
+    font-size: 9em;
+}
+.yellow-dot{
+    color: yellow;
+    display: inline;
+}
+.tomato-dot{
+    color: #FE5E35;
+}
+.black-dot{
+    color: black;
+}
