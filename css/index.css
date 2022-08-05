@@ -94,19 +94,24 @@ nav{
     flex-direction: column;
     justify-content: flex-start;
 }
+.headphonr-div{
+    position: relative;
+}
 .discount{
     position: absolute;
-    bottom: 20%;
-    left: 62%;
+    /* left: 62%; */
+    bottom: 10%;
     width: 180px;
 }
 .discount-content{
     font-family: 'Fredoka One';
     color: #ffffff;
-    font-size: x-large;
+    bottom: 16%;
+    right: 24%;
+    font-size: 25px;
     position: absolute;
-    bottom: 27%;
-    left: 65%;
+    z-index: 3;
+    
 }
 .discount-content h4{
     font-weight: 200;
@@ -140,4 +145,51 @@ nav{
 }
 .black-dot{
     color: black;
+}
+
+@media screen and (max-width:1200px) {
+    .intro-section{
+        flex-wrap: wrap-reverse;
+    }
+    .discount-content{
+        left: 8%;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .left-section{
+        margin-left: 10px;
+    }
+    nav img:nth-child(3){
+        display: none;
+    }
+    nav{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .headphonee{
+        width: 100%;
+    }
+    .discount{
+        width: 150px;
+        bottom: 20%;
+    }
+    .discount-content{
+        font-size: 19px;
+        bottom: 26%;
+    }
+    .left-section h1{
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .nav-items{
+        padding-left: 10px;
+    }
+    nav img:first-child{
+        width: 80px;
+    }
 }

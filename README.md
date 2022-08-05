@@ -8,7 +8,7 @@
 
 ![Project 7 Image](six.png)
 
-In this project I learned about transform property in css and its rotate function which rotate your content to specific degree.
+In this project, I learned about the transform property in CSS and its rotate function which rotate your content to a specific degree.
 
 [Visit this website](https://abhi-project-7.netlify.app/)
 
